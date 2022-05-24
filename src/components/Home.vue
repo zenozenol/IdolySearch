@@ -894,7 +894,7 @@ header {
 }
 
 .idol_selector {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 60px;
   z-index: 10;
