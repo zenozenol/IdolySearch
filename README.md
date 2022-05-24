@@ -4,6 +4,10 @@ Author : 廃業牧野
 
 IDOLY PRIDE 用のアイドル検索システムです。
 
+## デモページ
+
+https://zenozenol.github.io/IdolySearch/dist/#/
+
 ## インストール
 
 `yarn`
