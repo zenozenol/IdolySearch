@@ -898,6 +898,7 @@ header {
   position: absolute;
   right: 0;
   top: 60px;
+  z-index: 10;
   color: $white;
   background-color: rgba(20, 40, 255, 0.33);
   label {
