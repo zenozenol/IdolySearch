@@ -572,7 +572,6 @@ export default class Home extends Vue {
     this.isMobile = navigator.userAgent.match(/iPhone|Android.+Mobile/)
       ? true
       : false;
-    console.log(screen.orientation);
   }
 
   public showBoard(): void {
