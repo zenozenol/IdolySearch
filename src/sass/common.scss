@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import 'variable';
+
+%defFontFamily {
+  font-family: 游ゴシック, sans-serif;
+}
+
+%defTextShadow {
+  text-shadow: 2px 2px 3px rgba(76, 82, 57, 0.66);
+}
+
+@import '_defaults';
+
+html {
+  background-attachment: fixed;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @extend %defFontFamily;
+  color: $defColor;
+  background-color: $white;
+  line-height: 160%;
+}
+
+a {
+  color: $blue;
+  &:visited {
+    color: $blue;
+  }
+  &:focus {
+    color: #dd7d96;
+  }
+}
+
+#globalContainer {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
